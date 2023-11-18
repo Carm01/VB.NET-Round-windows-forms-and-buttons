@@ -23,7 +23,8 @@ it. Compile it like a normal app and get the exe from the BIN folder.
 > [!important]  
 > #### You will have to restore the nuget packages under the nuget packet manager! You will not be able to run the project without restoring them.
 > In Visual studio under the TOOLS menu Choose "NuGet Package Manager" -> "Manage NuGet Packages for Solution" You will see a pop up that says "Some Nuget Packages are missing for this solution. Click to Restore from you online package sources"
-> https://github.com/Carm01/VB.NET-Round-windows-forms-and-buttons/blob/master/RoundFormCornerImages/RestoreNuget.png
+>
+> Here is the screenshot and it is below too: https://github.com/Carm01/VB.NET-Round-windows-forms-and-buttons/blob/master/RoundFormCornerImages/RestoreNuget.png
 
 <br />
 <br />
