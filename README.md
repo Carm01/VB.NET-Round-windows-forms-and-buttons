@@ -19,6 +19,11 @@ additional DLL for the smooth round buttons to embed in the exe so there
  is no need for all other kinds of libraries floating around and to only
  get lost. That is built into the project so no need to go and install 
 it. Compile it like a normal app and get the exe from the BIN folder.
+> [!important]  
+If you build this from scratch and use Costura.Fody, in order to embed all the resourceferences then you will do the following:
+>
+> You will go into your .vbproj file and add \<Reference Include="mscorlib" /> right above the line where \<Reference Include="System" /> is located. as shown below.
+<img src="https://github.com/Carm01/VB.NET-Round-windows-forms-and-buttons/blob/master/RoundFormCornerImages/notepad++_e2MrSzjqA6.png">
 
 > [!important]  
 > #### You will have to restore the nuget packages under the nuget packet manager! You will not be able to run the project without restoring them.
